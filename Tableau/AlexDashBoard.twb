@@ -1,0 +1,2814 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='wageowngold (database.wageowngold)+ (database)' inline='true' name='federated.0flwpab0h6hq0t13vugfw0oyxib0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='presto.1jgzedi1ovejqo19qfswr1wbj757'>
+            <connection authentication='No Authentication' class='presto' dbname='delta_lake' one-time-sql='' port='8080' schema='database' server='localhost' sslmode='' username='alex' warehouse=''>
+              <connection-customization class='presto' enabled='false' version='18.1'>
+                <vendor name='presto' />
+                <driver name='presto' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='no' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='no' />
+                  <customization name='CAP_COLLECT_TABLE_STATISTICS' value='no' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUALITY_JOINS_ONLY' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_FORCE_COUNT_FOR_NUMBEROFRECORDS' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_JDBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='no' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='no' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_PERSIST_SQL_RELATION_ON_LEAF_CONNECTION' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_CAST_MONEY_AS_NUMERIC' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_CHECK_NOT_NULL' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_MAKE_DOMAIN_PREDICATE' value='no' />
+                  <customization name='CAP_QUERY_INLINE_COMPLEX_GROUPBYS_IN_SELECTS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_MINMAX_FORCE_GROUPBYS' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='yes' />
+                  <customization name='CAP_QUERY_OUTER_JOIN_CONDITION_NO_TRIVIAL' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP_ALTERNATIVE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TAGS_IN_SQL_TEXT' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_EXCEPT_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION_STRINGS' value='no' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_RENAME_TABLE_USE_LEAF_CONNECTION_DIALECT' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='no' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_SCHEMAS_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_TABLES_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='presto.1jgzedi1ovejqo19qfswr1wbj757' name='wageowngold' table='[database].[wageowngold]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='presto.1jgzedi1ovejqo19qfswr1wbj757' name='wageowngold' table='[database].[wageowngold]' type='table' />
+          <relation connection='presto.1jgzedi1ovejqo19qfswr1wbj757' name='wagetimegold' table='[database].[wagetimegold]' type='table' />
+          <relation connection='presto.1jgzedi1ovejqo19qfswr1wbj757' name='wageunemploymentgo' table='[database].[wageunemploymentgold]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[ano (wagetimegold)]' value='[wagetimegold].[ano]' />
+          <map key='[ano (wageunemploymentgo)]' value='[wageunemploymentgo].[ano]' />
+          <map key='[ano]' value='[wageowngold].[ano]' />
+          <map key='[desagregacao (wagetimegold)]' value='[wagetimegold].[desagregacao]' />
+          <map key='[desagregacao (wageunemploymentgo)]' value='[wageunemploymentgo].[desagregacao]' />
+          <map key='[desagregacao]' value='[wageowngold].[desagregacao]' />
+          <map key='[nome_indicador (wagetimegold)]' value='[wagetimegold].[nome_indicador]' />
+          <map key='[nome_indicador (wageunemploymentgo)]' value='[wageunemploymentgo].[nome_indicador]' />
+          <map key='[nome_indicador]' value='[wageowngold].[nome_indicador]' />
+          <map key='[nome_pais (wagetimegold)]' value='[wagetimegold].[nome_pais]' />
+          <map key='[nome_pais (wageunemploymentgo)]' value='[wageunemploymentgo].[nome_pais]' />
+          <map key='[nome_pais]' value='[wageowngold].[nome_pais]' />
+          <map key='[valor (wagetimegold)]' value='[wagetimegold].[valor]' />
+          <map key='[valor (wageunemploymentgo)]' value='[wageunemploymentgo].[valor]' />
+          <map key='[valor]' value='[wageowngold].[valor]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>nome_pais</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nome_pais]</local-name>
+            <parent-name>[wageowngold]</parent-name>
+            <remote-alias>nome_pais</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageowngold (database.wageowngold)_07D6DC33E4794155B5A7A4457B5CB9CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nome_indicador</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nome_indicador]</local-name>
+            <parent-name>[wageowngold]</parent-name>
+            <remote-alias>nome_indicador</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageowngold (database.wageowngold)_07D6DC33E4794155B5A7A4457B5CB9CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ano</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ano]</local-name>
+            <parent-name>[wageowngold]</parent-name>
+            <remote-alias>ano</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageowngold (database.wageowngold)_07D6DC33E4794155B5A7A4457B5CB9CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>valor</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[valor]</local-name>
+            <parent-name>[wageowngold]</parent-name>
+            <remote-alias>valor</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageowngold (database.wageowngold)_07D6DC33E4794155B5A7A4457B5CB9CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>desagregacao</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[desagregacao]</local-name>
+            <parent-name>[wageowngold]</parent-name>
+            <remote-alias>desagregacao</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageowngold (database.wageowngold)_07D6DC33E4794155B5A7A4457B5CB9CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nome_pais</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nome_pais (wagetimegold)]</local-name>
+            <parent-name>[wagetimegold]</parent-name>
+            <remote-alias>nome_pais</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wagetimegold (database.wagetimegold)_BDA6B72C39864FD8BCD2E2EA66E9C4D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nome_indicador</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nome_indicador (wagetimegold)]</local-name>
+            <parent-name>[wagetimegold]</parent-name>
+            <remote-alias>nome_indicador</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wagetimegold (database.wagetimegold)_BDA6B72C39864FD8BCD2E2EA66E9C4D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ano</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ano (wagetimegold)]</local-name>
+            <parent-name>[wagetimegold]</parent-name>
+            <remote-alias>ano</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wagetimegold (database.wagetimegold)_BDA6B72C39864FD8BCD2E2EA66E9C4D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>valor</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[valor (wagetimegold)]</local-name>
+            <parent-name>[wagetimegold]</parent-name>
+            <remote-alias>valor</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wagetimegold (database.wagetimegold)_BDA6B72C39864FD8BCD2E2EA66E9C4D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>desagregacao</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[desagregacao (wagetimegold)]</local-name>
+            <parent-name>[wagetimegold]</parent-name>
+            <remote-alias>desagregacao</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wagetimegold (database.wagetimegold)_BDA6B72C39864FD8BCD2E2EA66E9C4D8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nome_pais</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nome_pais (wageunemploymentgo)]</local-name>
+            <parent-name>[wageunemploymentgo]</parent-name>
+            <remote-alias>nome_pais</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageunemploymentgold (database.wageunemploymentgold)_1CCA852081594C1E842026E3D4B34838]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nome_indicador</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nome_indicador (wageunemploymentgo)]</local-name>
+            <parent-name>[wageunemploymentgo]</parent-name>
+            <remote-alias>nome_indicador</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageunemploymentgold (database.wageunemploymentgold)_1CCA852081594C1E842026E3D4B34838]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ano</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ano (wageunemploymentgo)]</local-name>
+            <parent-name>[wageunemploymentgo]</parent-name>
+            <remote-alias>ano</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageunemploymentgold (database.wageunemploymentgold)_1CCA852081594C1E842026E3D4B34838]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>valor</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[valor (wageunemploymentgo)]</local-name>
+            <parent-name>[wageunemploymentgo]</parent-name>
+            <remote-alias>valor</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>6</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageunemploymentgold (database.wageunemploymentgold)_1CCA852081594C1E842026E3D4B34838]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>desagregacao</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[desagregacao (wageunemploymentgo)]</local-name>
+            <parent-name>[wageunemploymentgo]</parent-name>
+            <remote-alias>desagregacao</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wageunemploymentgold (database.wageunemploymentgold)_1CCA852081594C1E842026E3D4B34838]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='wageowngold' datatype='table' name='[__tableau_internal_object_id__].[wageowngold (database.wageowngold)_07D6DC33E4794155B5A7A4457B5CB9CE]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='wagetimegold' datatype='table' name='[__tableau_internal_object_id__].[wagetimegold (database.wagetimegold)_BDA6B72C39864FD8BCD2E2EA66E9C4D8]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='wageunemploymentgo' datatype='table' name='[__tableau_internal_object_id__].[wageunemploymentgold (database.wageunemploymentgold)_1CCA852081594C1E842026E3D4B34838]' role='measure' type='quantitative' />
+      <column caption='Ano (Wagetimegold)' datatype='integer' name='[ano (wagetimegold)]' role='dimension' type='quantitative' />
+      <column caption='Ano (Wageunemploymentgo)' datatype='integer' name='[ano (wageunemploymentgo)]' role='dimension' type='quantitative' />
+      <column caption='Ano' datatype='integer' name='[ano]' role='dimension' type='quantitative' />
+      <column caption='Desagregacao (Wagetimegold)' datatype='string' name='[desagregacao (wagetimegold)]' role='dimension' type='nominal' />
+      <column caption='Desagregacao (Wageunemploymentgo)' datatype='string' name='[desagregacao (wageunemploymentgo)]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;female&quot;' value='Feminino' />
+          <alias key='&quot;male&quot;' value='Masculino' />
+        </aliases>
+      </column>
+      <column caption='Desagregacao' datatype='string' name='[desagregacao]' role='dimension' type='nominal' />
+      <column caption='Nome Indicador (Wagetimegold)' datatype='string' name='[nome_indicador (wagetimegold)]' role='dimension' type='nominal' />
+      <column caption='Nome Indicador (Wageunemploymentgo)' datatype='string' name='[nome_indicador (wageunemploymentgo)]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Unemployment, female (\% of female labor force) (modeled ILO estimate)&quot;' value='Desemprego modelo ILO (Feminino)' />
+          <alias key='&quot;Unemployment, male (\% of male labor force) (modeled ILO estimate)&quot;' value='Desemprego Modelo ILO (M)' />
+          <alias key='&quot;Unemployment, male (\% of male labor force) (national estimate)&quot;' value='Desemprego Modelo Nacional (M)' />
+        </aliases>
+      </column>
+      <column caption='Nome Indicador' datatype='string' name='[nome_indicador]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;' value='Trabalhadores Conta Propria (F)' />
+          <alias key='&quot;Own-account workers, total (\% of male employment) (modeled ILO estimate)&quot;' value='Trabalhadores Conta Propria (M)' />
+          <alias key='&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;' value='Trabalhadores Conta Outrem (F)' />
+          <alias key='&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;' value='Trabalhadores Conta Outrem (M)' />
+        </aliases>
+      </column>
+      <column caption='Nome Pais (Wagetimegold)' datatype='string' name='[nome_pais (wagetimegold)]' role='dimension' type='nominal' />
+      <column caption='Nome Pais (Wageunemploymentgo)' datatype='string' name='[nome_pais (wageunemploymentgo)]' role='dimension' type='nominal' />
+      <column caption='Nome Pais' datatype='string' name='[nome_pais]' role='dimension' type='nominal' />
+      <column caption='Valor (Wagetimegold)' datatype='real' name='[valor (wagetimegold)]' role='measure' type='quantitative' />
+      <column caption='Valor (Wageunemploymentgo)' datatype='real' name='[valor (wageunemploymentgo)]' role='measure' type='quantitative' />
+      <column caption='Valor' datatype='real' name='[valor]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;PT&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='wageowngold' id='wageowngold (database.wageowngold)_07D6DC33E4794155B5A7A4457B5CB9CE'>
+            <properties context=''>
+              <relation connection='presto.1jgzedi1ovejqo19qfswr1wbj757' name='wageowngold' table='[database].[wageowngold]' type='table' />
+            </properties>
+          </object>
+          <object caption='wagetimegold' id='wagetimegold (database.wagetimegold)_BDA6B72C39864FD8BCD2E2EA66E9C4D8'>
+            <properties context=''>
+              <relation connection='presto.1jgzedi1ovejqo19qfswr1wbj757' name='wagetimegold' table='[database].[wagetimegold]' type='table' />
+            </properties>
+          </object>
+          <object caption='wageunemploymentgo' id='wageunemploymentgold (database.wageunemploymentgold)_1CCA852081594C1E842026E3D4B34838'>
+            <properties context=''>
+              <relation connection='presto.1jgzedi1ovejqo19qfswr1wbj757' name='wageunemploymentgo' table='[database].[wageunemploymentgold]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='AND'>
+              <expression op='='>
+                <expression op='[ano]' />
+                <expression op='[ano (wagetimegold)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[desagregacao]' />
+                <expression op='[desagregacao (wagetimegold)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[nome_indicador]' />
+                <expression op='[nome_indicador (wagetimegold)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[nome_pais]' />
+                <expression op='[nome_pais (wagetimegold)]' />
+              </expression>
+            </expression>
+            <first-end-point object-id='wageowngold (database.wageowngold)_07D6DC33E4794155B5A7A4457B5CB9CE' />
+            <second-end-point object-id='wagetimegold (database.wagetimegold)_BDA6B72C39864FD8BCD2E2EA66E9C4D8' />
+          </relationship>
+          <relationship>
+            <expression op='AND'>
+              <expression op='='>
+                <expression op='[ano]' />
+                <expression op='[ano (wageunemploymentgo)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[desagregacao]' />
+                <expression op='[desagregacao (wageunemploymentgo)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[nome_indicador]' />
+                <expression op='[nome_indicador (wageunemploymentgo)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[nome_pais]' />
+                <expression op='[nome_pais (wageunemploymentgo)]' />
+              </expression>
+            </expression>
+            <first-end-point object-id='wageowngold (database.wageowngold)_07D6DC33E4794155B5A7A4457B5CB9CE' />
+            <second-end-point object-id='wageunemploymentgold (database.wageunemploymentgold)_1CCA852081594C1E842026E3D4B34838' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='12'>Trabalhadores Conta Propria e Trabalhadores Conta Outrem</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='wageowngold (database.wageowngold)+ (database)' name='federated.0flwpab0h6hq0t13vugfw0oyxib0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0flwpab0h6hq0t13vugfw0oyxib0'>
+            <column caption='Ano' datatype='integer' name='[ano]' role='dimension' type='quantitative' />
+            <column-instance column='[valor]' derivation='Attribute' name='[attr:valor:qk]' pivot='key' type='quantitative' />
+            <column caption='Desagregacao' datatype='string' name='[desagregacao]' role='dimension' type='nominal' />
+            <column caption='Nome Indicador' datatype='string' name='[nome_indicador]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;' value='Trabalhadores Conta Propria (F)' />
+                <alias key='&quot;Own-account workers, total (\% of male employment) (modeled ILO estimate)&quot;' value='Trabalhadores Conta Propria (M)' />
+                <alias key='&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;' value='Trabalhadores Conta Outrem (F)' />
+                <alias key='&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;' value='Trabalhadores Conta Outrem (M)' />
+              </aliases>
+            </column>
+            <column caption='Nome Pais' datatype='string' name='[nome_pais]' role='dimension' type='nominal' />
+            <column-instance column='[ano]' derivation='None' name='[none:ano:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[ano]' derivation='None' name='[none:ano:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[desagregacao]' derivation='None' name='[none:desagregacao:nk]' pivot='key' type='nominal' />
+            <column-instance column='[nome_indicador]' derivation='None' name='[none:nome_indicador:nk]' pivot='key' type='nominal' />
+            <column-instance column='[nome_pais]' derivation='None' name='[none:nome_pais:nk]' pivot='key' type='nominal' />
+            <column caption='Valor' datatype='real' name='[valor]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:qk]' included-values='in-range'>
+            <min>2015</min>
+            <max>2015</max>
+          </filter>
+          <filter class='categorical' column='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:nome_indicador:nk]' />
+              <groupfilter function='member' level='[none:nome_indicador:nk]' member='&quot;Own-account workers, male (\% of male employment) (modeled ILO estimate)&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:nome_pais:nk]' />
+              <groupfilter function='member' level='[none:nome_pais:nk]' member='&quot;Czechia&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:qk]</column>
+            <column>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</column>
+            <column>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]' value='100' />
+            <format attr='height' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]' value='18' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]' value='10' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]' value='false' />
+            <format attr='display' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]' value='false' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5eddc' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='font-family' value='Georgia' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-family' value='Georgia' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-family' value='Georgia' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk] / ([federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk] / [federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]))</rows>
+        <cols>([federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok] * [federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk])</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Switzerland&quot;</value>
+                <value>7.2129998207092285</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Slovenia&quot;</value>
+                <value>5.9860000610351562</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Poland&quot;</value>
+                <value>10.850000381469727</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Hungary&quot;</value>
+                <value>4.6469998359680176</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Germany&quot;</value>
+                <value>4.6729998588562012</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Denmark&quot;</value>
+                <value>3.3069999217987061</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Czech Republic&quot;</value>
+                <value>9.875</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Own-account workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Austria&quot;</value>
+                <value>6.2049999237060547</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Own-account workers, total (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Slovenia&quot;</value>
+                <value>8.9069995880126953</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='9' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Own-account workers, total (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Poland&quot;</value>
+                <value>14.340999603271484</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='10' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Own-account workers, total (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Hungary&quot;</value>
+                <value>5.4980001449584961</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='11' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Own-account workers, total (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Germany&quot;</value>
+                <value>5.7420001029968262</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='12' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Own-account workers, total (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Denmark&quot;</value>
+                <value>4.8220000267028809</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='13' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Own-account workers, total (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Czech Republic&quot;</value>
+                <value>13.217000007629395</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='14' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Own-account workers, total (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Austria&quot;</value>
+                <value>6.8889999389648438</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='15' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Switzerland&quot;</value>
+                <value>86.929946899414062</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='16' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Slovenia&quot;</value>
+                <value>86.536666870117188</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='17' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Poland&quot;</value>
+                <value>82.377151489257812</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='18' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Hungary&quot;</value>
+                <value>92.007347106933594</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='19' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Germany&quot;</value>
+                <value>92.245216369628906</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='20' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Denmark&quot;</value>
+                <value>94.555732727050781</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='21' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Austria&quot;</value>
+                <value>89.615623474121094</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='22' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Switzerland&quot;</value>
+                <value>83.578338623046875</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='23' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Slovenia&quot;</value>
+                <value>80.98828125</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='24' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Poland&quot;</value>
+                <value>75.844352722167969</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='25' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Hungary&quot;</value>
+                <value>86.732803344726562</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='26' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Germany&quot;</value>
+                <value>86.617660522460938</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='27' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Denmark&quot;</value>
+                <value>88.1373291015625</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='28' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:ok]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[attr:valor:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2015</value>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Austria&quot;</value>
+                <value>84.676612854003906</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{E63EB906-55DC-4083-99CD-489F1815D5A8}' />
+    </worksheet>
+    <worksheet name='Planilha 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='12'>Taxa de Desemprego Europa Central</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='wageowngold (database.wageowngold)+ (database)' name='federated.0flwpab0h6hq0t13vugfw0oyxib0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0flwpab0h6hq0t13vugfw0oyxib0'>
+            <column caption='Ano (Wageunemploymentgo)' datatype='integer' name='[ano (wageunemploymentgo)]' role='dimension' type='quantitative' />
+            <column caption='Desagregacao (Wageunemploymentgo)' datatype='string' name='[desagregacao (wageunemploymentgo)]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;female&quot;' value='Feminino' />
+                <alias key='&quot;male&quot;' value='Masculino' />
+              </aliases>
+            </column>
+            <column caption='Nome Indicador (Wageunemploymentgo)' datatype='string' name='[nome_indicador (wageunemploymentgo)]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Unemployment, female (\% of female labor force) (modeled ILO estimate)&quot;' value='Desemprego modelo ILO (Feminino)' />
+                <alias key='&quot;Unemployment, male (\% of male labor force) (modeled ILO estimate)&quot;' value='Desemprego Modelo ILO (M)' />
+                <alias key='&quot;Unemployment, male (\% of male labor force) (national estimate)&quot;' value='Desemprego Modelo Nacional (M)' />
+              </aliases>
+            </column>
+            <column caption='Nome Pais (Wageunemploymentgo)' datatype='string' name='[nome_pais (wageunemploymentgo)]' role='dimension' type='nominal' />
+            <column-instance column='[ano (wageunemploymentgo)]' derivation='None' name='[none:ano (wageunemploymentgo):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[desagregacao (wageunemploymentgo)]' derivation='None' name='[none:desagregacao (wageunemploymentgo):nk]' pivot='key' type='nominal' />
+            <column-instance column='[nome_indicador (wageunemploymentgo)]' derivation='None' name='[none:nome_indicador (wageunemploymentgo):nk]' pivot='key' type='nominal' />
+            <column-instance column='[nome_pais (wageunemploymentgo)]' derivation='None' name='[none:nome_pais (wageunemploymentgo):nk]' pivot='key' type='nominal' />
+            <column-instance column='[valor (wageunemploymentgo)]' derivation='Sum' name='[sum:valor (wageunemploymentgo):qk]' pivot='key' type='quantitative' />
+            <column caption='Valor (Wageunemploymentgo)' datatype='real' name='[valor (wageunemploymentgo)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano (wageunemploymentgo):qk]' included-values='in-range'>
+            <min>2015</min>
+            <max>2015</max>
+          </filter>
+          <filter class='categorical' column='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:nome_indicador (wageunemploymentgo):nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:nome_indicador (wageunemploymentgo):nk]' member='&quot;Unemployment, female (\% of female labor force) (national estimate)&quot;' />
+                <groupfilter function='member' level='[none:nome_indicador (wageunemploymentgo):nk]' member='&quot;Wage and salaried workers, female (\% of female employment) (modeled ILO estimate)&quot;' />
+                <groupfilter function='member' level='[none:nome_indicador (wageunemploymentgo):nk]' member='&quot;Wage and salaried workers, male (\% of male employment) (modeled ILO estimate)&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano (wageunemploymentgo):qk]</column>
+            <column>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]' value='231' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]' value='104' />
+            <format attr='height' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]' value='46' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]' value='false' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5eddc' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='color' value='#000000' />
+            <format attr='font-family' value='Georgia' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='color' value='#000000' />
+            <format attr='font-family' value='Georgia' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]' value='Nome Pais' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-family' value='Georgia' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk] * [federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk])</rows>
+        <cols>([federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk] / [federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk])</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Unemployment, female (\% of female labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Slovenia&quot;</value>
+                <value>10.03600025177002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Unemployment, female (\% of female labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Poland&quot;</value>
+                <value>7.7090001106262207</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Unemployment, female (\% of female labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Hungary&quot;</value>
+                <value>7.0380001068115234</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Unemployment, female (\% of female labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Germany&quot;</value>
+                <value>4.2179999351501465</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Unemployment, female (\% of female labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Czechia&quot;</value>
+                <value>6.0780000686645508</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;female&quot;</value>
+                <value>&quot;Unemployment, female (\% of female labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Austria&quot;</value>
+                <value>5.3060002326965332</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Unemployment, male (\% of male labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Slovenia&quot;</value>
+                <value>8.0469999313354492</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Unemployment, male (\% of male labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Poland&quot;</value>
+                <value>7.3289999961853027</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Unemployment, male (\% of male labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Hungary&quot;</value>
+                <value>6.6180000305175781</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='9' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Unemployment, male (\% of male labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Germany&quot;</value>
+                <value>4.9679999351501465</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='10' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Unemployment, male (\% of male labor force) (modeled ILO estimate)&quot;</value>
+                <value>&quot;Austria&quot;</value>
+                <value>6.0850000381469727</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='11' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Unemployment, male (\% of male labor force) (national estimate)&quot;</value>
+                <value>&quot;Switzerland&quot;</value>
+                <value>4.6999998092651367</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='12' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Unemployment, male (\% of male labor force) (national estimate)&quot;</value>
+                <value>&quot;Denmark&quot;</value>
+                <value>6.059999942779541</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='13' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                    <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+                  <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[sum:valor (wageunemploymentgo):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;male&quot;</value>
+                <value>&quot;Unemployment, male (\% of male labor force) (national estimate)&quot;</value>
+                <value>&quot;Czechia&quot;</value>
+                <value>4.2300000190734863</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{2E0151D9-DB1C-4B16-9DE5-09FE572C8130}' />
+    </worksheet>
+    <worksheet name='Planilha 3'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0C86D1BC-3D18-4F8F-B263-343583E712CF}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Painel 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f5eddc' />
+        </style-rule>
+      </style>
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='81901' id='3' name='Planilha 1' w='63909' x='73' y='15885' />
+        <zone h='57375' id='5' name='Planilha 2' w='34300' x='64100' y='15375' />
+        <zone h='15234' id='6' name='Planilha 2' pane-specification-id='7' param='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]' type-v2='color' w='29868' x='67496' y='77734' />
+        <zone forceUpdate='true' h='8875' id='7' type-v2='text' w='97300' x='1000' y='1375'>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Georgia' fontsize='15'>Taxa De Emprego por Conta Própria , por Conta de Outrem e Desemprego</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='9' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='8' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone forceUpdate='true' h='8875' id='7' type-v2='text' w='97300' x='1000' y='1375'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Georgia' fontsize='15'>Taxa De Emprego por Conta Própria , por Conta de Outrem e Desemprego</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='57375' id='5' is-fixed='true' name='Planilha 2' w='34300' x='64100' y='15375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='15234' id='6' name='Planilha 2' pane-specification-id='7' param='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]' type-v2='color' w='29868' x='67496' y='77734'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='81901' id='3' is-fixed='true' name='Planilha 1' w='63909' x='73' y='15885'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4DB41951-A739-4D45-8E5D-478716C15127}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card pane-specification-id='7' param='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano:qk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao:nk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador:nk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{250BBF9A-AF0B-48CC-B3A6-B67919D41EB5}' />
+    </window>
+    <window class='worksheet' name='Planilha 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card pane-specification-id='7' param='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano (wagetimegold):qk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:ano (wageunemploymentgo):qk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wagetimegold):nk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:desagregacao (wageunemploymentgo):nk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wagetimegold):nk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_indicador (wageunemploymentgo):nk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wagetimegold):nk]</field>
+            <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{458818B6-81F6-440E-B9DF-EAF944CD3B97}' />
+    </window>
+    <window class='worksheet' name='Planilha 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8557C231-CC47-451B-8E67-BC76AF211756}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Painel 1'>
+      <viewpoints>
+        <viewpoint name='Planilha 1'>
+          <highlight field='[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Planilha 2'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0flwpab0h6hq0t13vugfw0oyxib0].[none:nome_pais (wageunemploymentgo):nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9CFDDA56-A056-4461-82B7-F7A288B50CDD}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Painel 1' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 2' width='192'>
+      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
+      QmCC
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
